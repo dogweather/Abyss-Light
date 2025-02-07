@@ -1,4 +1,4 @@
-# Abyss List (abyss-light) README
+# Abyss Light (abyss-light) README
 
 ## How to make a custom theme
 
