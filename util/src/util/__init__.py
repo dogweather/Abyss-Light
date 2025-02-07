@@ -1,5 +1,4 @@
 from colorzero.color import Color
-from colorzero.types import HLS
 
 
 def invert_lightness(color: Color) -> Color:
