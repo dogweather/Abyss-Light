@@ -1,0 +1,21 @@
+{
+  "name": "abyss-light",
+  "displayName": "Abyss Light",
+  "description": "A light theme that assists with focus.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Abyss Light",
+        "uiTheme": "vs",
+        "path": "./themes/AbyssLight-color-theme.json"
+      }
+    ]
+  }
+}
