@@ -1,4 +1,8 @@
-# abyss-light README
+# Abyss List (abyss-light) README
+
+## How to make a custom theme
+
+* [Build your own VS Code Theme](https://learn.microsoft.com/en-us/shows/vs-code-livestreams/build-your-own-vs-code-theme) — A great video tutorial that covers starting from scratch, and also how to modify an existing theme.
 
 ## Working with Markdown
 
