@@ -1,5 +1,3 @@
-import pytest
-
 from colorzero.color import Color
 from util import invert_lightness
 
