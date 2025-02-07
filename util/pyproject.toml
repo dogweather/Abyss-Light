@@ -2,14 +2,10 @@
 name = "util"
 version = "0.1.0"
 description = "CLI tools for developing the Abyss Light theme"
-authors = [
-    {name = "Robb Shecter",email = "robb@public.law"}
-]
+authors = [{ name = "Robb Shecter", email = "robb@public.law" }]
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = [
-    "colorzero (>=2.0,<3.0)"
-]
+dependencies = ["colorzero (>=2.0,<3.0)"]
 
 
 [build-system]
@@ -17,6 +13,5 @@ requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.group.dev.dependencies]
-ptpython = "^3.0.29"
 ipython = "^8.32.0"
-
+pytest = "^8.3.4"
