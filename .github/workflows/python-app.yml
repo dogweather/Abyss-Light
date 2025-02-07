@@ -32,4 +32,5 @@ jobs:
     - name: Test with pytest
       run: |
         cd util
-        poetry run pytest
+        pwd
+        poetry run pytest -q
