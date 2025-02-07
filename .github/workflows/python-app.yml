@@ -27,7 +27,9 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install poetry
+        cd util
         poetry install
     - name: Test with pytest
       run: |
+        cd util
         poetry run pytest
