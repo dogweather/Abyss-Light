@@ -23,15 +23,15 @@ def test_full_red_does_not_change():
 # RGB
 
 def test_dark_to_light_rgb():
-    assert invert_lightness(DARK_RGB).html == LIGHT_RGB.html
+    assert invert_lightness(DARK_RGB).html == LIGHT_RGB
 
 def test_light_to_dark_rgb():
-    assert invert_lightness(LIGHT_RGB).html == DARK_RGB.html
+    assert invert_lightness(LIGHT_RGB).html == DARK_RGB
 
 # RGBA
 
 def test_dark_to_light_rgba():
-    assert invert_lightness(DARK_RGBA).html == LIGHT_RGBA.html
+    assert invert_lightness(DARK_RGBA).html == LIGHT_RGBA
 
 def test_light_to_dark_rgba():
-    assert invert_lightness(LIGHT_RGBA).html == DARK_RGBA.html
+    assert invert_lightness(LIGHT_RGBA).html == DARK_RGBA
