@@ -6,9 +6,14 @@ def invert_lightness(color: Color|str) -> Color|str:
         case Color():
             return _invert_lightness(color)
         case str():
-            return _invert_lightness(Color.from_string(color)).html
-        case _:
-            raise ValueError(f"Invalid color: {color}")
+            # Splice off the last two characters (RGBA) if present.
+            if len(color) == 9:
+                rgb   = color[:-2]
+                alpha = color[-2:]
+            else:
+                rgb   = color
+                alpha = ""
+            return _invert_lightness(Color.from_string(rgb)).html + alpha
 
 
 def _invert_lightness(color: Color) -> Color:
