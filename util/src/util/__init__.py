@@ -3,7 +3,7 @@ from colorzero.color import Color
 
 def invert_lightness(color: str) -> str:
     """
-    Invert the lightness of a color. Handle both RGB and RGBA colors.
+    Invert a color's lightness. Handle both RGB and RGBA colors.
 
     Examples:
         >>> invert_lightness('#000000')
