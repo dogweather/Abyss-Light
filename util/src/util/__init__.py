@@ -59,3 +59,11 @@ def invert_colors(filename: str) -> None:
     except Exception as e:
         print(f"Error processing file: {str(e)}", file=sys.stderr)
     
+
+if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser(description="Invert CSS color codes")
+    parser.add_argument("filename", help="Path to the file to process")
+    args = parser.parse_args()
+    
+    invert_colors(args.filename)
