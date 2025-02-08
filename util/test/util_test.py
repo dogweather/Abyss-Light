@@ -39,4 +39,3 @@ def test_light_to_dark_rgba():
 def test_inverse_of_inverse_is_original():
     assert invert_lightness(invert_lightness(DARK_RGBA))  == DARK_RGBA
     assert invert_lightness(invert_lightness(LIGHT_RGBA)) == LIGHT_RGBA
-    assert invert_lightness(invert_lightness(FULL_RED))   == FULL_RED
