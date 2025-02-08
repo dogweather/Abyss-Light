@@ -7,13 +7,13 @@ def invert_lightness(color: str) -> str:
 
     Examples:
         >>> invert_lightness("#000000")
-        "#ffffff"
+        '#ffffff'
         >>> invert_lightness("#ffffff")
-        "#000000"
+        '#000000'
         >>> invert_lightness("#00000000")
-        "#ffffff00"
+        '#ffffff00'
         >>> invert_lightness("#ffffff00")
-        "#00000000"
+        '#00000000'
     """
     rgb, alpha = (color[:-2], color[-2:]) if len(color) == 9 else (color, "")
     new_rgb    = _invert_lightness(Color.from_string(rgb)).html
