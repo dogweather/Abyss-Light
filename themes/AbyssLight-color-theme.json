@@ -1,5 +1,5 @@
 {
-	"name": "Abyss",
+        "name": "Abyss Light",
 	"tokenColors": [
 		{
 			"settings": {
@@ -16,13 +16,13 @@
 				"foreground": "#335599"
 			}
 		},
-		{
-			"name": "Comment",
-			"scope": "comment",
-			"settings": {
-				"foreground": "#7888c7"
-			}
-		},
+                {
+                        "name": "Comment",
+                        "scope": "comment",
+                        "settings": {
+                                "foreground": "#94a4d6"
+                        }
+                },
 		{
 			"name": "String",
 			"scope": "string",
@@ -61,21 +61,31 @@
 				"fontStyle": ""
 			}
 		},
-		{
-			"name": "Keyword",
-			"scope": "keyword",
-			"settings": {
-				"foreground": "#77aadd"
-			}
-		},
-		{
-			"name": "Storage",
-			"scope": "storage",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#77aadd"
-			}
-		},
+                {
+                        "name": "Keyword",
+                        "scope": [
+                                "keyword.control",
+                                "keyword.other"
+                        ],
+                        "settings": {
+                                "foreground": "#e7f3ff"
+                        }
+                },
+                {
+                        "name": "Operator",
+                        "scope": "keyword.operator",
+                        "settings": {
+                                "foreground": "#335599"
+                        }
+                },
+                {
+                        "name": "Storage",
+                        "scope": "storage",
+                        "settings": {
+                                "fontStyle": "",
+                                "foreground": "#e7f3ff"
+                        }
+                },
 		{
 			"name": "Storage type",
 			"scope": "storage.type",
@@ -137,14 +147,14 @@
 				"foreground": "#775522"
 			}
 		},
-		{
-			"name": "Library function",
-			"scope": "support.function",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#7a4799"
-			}
-		},
+                {
+                        "name": "Library function",
+                        "scope": "support.function",
+                        "settings": {
+                                "fontStyle": "",
+                                "foreground": "#775522"
+                        }
+                },
 		{
 			"name": "Library constant",
 			"scope": "support.constant",
