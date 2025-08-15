@@ -61,29 +61,29 @@
 				"fontStyle": ""
 			}
 		},
-		{
-			"name": "Keyword",
-			"scope": "keyword",
-			"settings": {
-				"foreground": "#77aadd"
-			}
-		},
-		{
-			"name": "Storage",
-			"scope": "storage",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#77aadd"
-			}
-		},
-		{
-			"name": "Storage type",
-			"scope": "storage.type",
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#7a4799"
-			}
-		},
+                {
+                        "name": "Keyword",
+                        "scope": "keyword",
+                        "settings": {
+                                "foreground": "#e7f3ff"
+                        }
+                },
+                {
+                        "name": "Storage",
+                        "scope": "storage",
+                        "settings": {
+                                "fontStyle": "",
+                                "foreground": "#e7f3ff"
+                        }
+                },
+                {
+                        "name": "Storage type",
+                        "scope": "storage.type",
+                        "settings": {
+                                "fontStyle": "italic",
+                                "foreground": "#e7f3ff"
+                        }
+                },
 		{
 			"name": "Class name",
 			"scope": [
@@ -137,14 +137,14 @@
 				"foreground": "#775522"
 			}
 		},
-		{
-			"name": "Library function",
-			"scope": "support.function",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#7a4799"
-			}
-		},
+                {
+                        "name": "Library function",
+                        "scope": "support.function",
+                        "settings": {
+                                "fontStyle": "",
+                                "foreground": "#775522"
+                        }
+                },
 		{
 			"name": "Library constant",
 			"scope": "support.constant",
