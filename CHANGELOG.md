@@ -7,3 +7,5 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 
 - Initial release
+- Adjusted token colors so language keywords fade into the background and
+  function names share a consistent highlight.
