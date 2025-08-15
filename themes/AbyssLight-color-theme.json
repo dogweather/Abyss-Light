@@ -1,5 +1,5 @@
 {
-	"name": "Abyss",
+	"name": "Abyss Light",
 	"tokenColors": [
 		{
 			"settings": {
@@ -65,7 +65,7 @@
 			"name": "Keyword",
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#77aadd"
+				"foreground": "#e7f3ff"
 			}
 		},
 		{
@@ -73,7 +73,7 @@
 			"scope": "storage",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#77aadd"
+				"foreground": "#e7f3ff"
 			}
 		},
 		{
@@ -81,7 +81,7 @@
 			"scope": "storage.type",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#7a4799"
+				"foreground": "#e7f3ff"
 			}
 		},
 		{
@@ -142,7 +142,7 @@
 			"scope": "support.function",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#7a4799"
+				"foreground": "#775522"
 			}
 		},
 		{
